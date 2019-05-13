@@ -1,10 +1,4 @@
-def display_board(board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+
 
 def input_to_index(input)
   index = input - 1
@@ -38,4 +32,12 @@ def turn(board)
       valid_move = true
     end
   end
+end
+
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
 end
