@@ -5,10 +5,13 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
+    
   if index > 8
     false
   elsif index < 0
     false
+  elsif board[index] = " "
+    true
   else
     true
   end
