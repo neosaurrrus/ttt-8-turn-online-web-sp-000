@@ -10,8 +10,8 @@ def valid_move?(board, index)
     false
   elsif index < 0
     false
-  elsif board[index] = " "
-    true
+  elsif board[index] != " "
+    false
   else
     true
   end
