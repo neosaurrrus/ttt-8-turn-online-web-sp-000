@@ -27,7 +27,7 @@ def turn(board)
   # TODO: Add code Here
   valid_move = false
   while !valid_move
-    puts "Please enter 1-9"
+    puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
     if !valid_move?(index)
