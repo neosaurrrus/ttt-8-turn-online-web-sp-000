@@ -5,7 +5,6 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-
   if index > 8
     false
   elsif index < 0
@@ -15,7 +14,6 @@ def valid_move?(board, index)
   else
     true
   end
-
 end
 
 def move (board, index, token = "X")
