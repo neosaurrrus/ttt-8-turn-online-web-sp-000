@@ -31,6 +31,7 @@ def turn(board)
     if !valid_move?(board, index)
       turn(board)
     else move(board, index, "X")
+      display_board(board)
     end
 end
 
