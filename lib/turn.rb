@@ -29,7 +29,7 @@ def turn(board)
     input = gets.strip
     index = input_to_index(input)
     if !valid_move?(board, index)
-      return
+      turn(board)
     else move(board, index, "X")
     end
 end
